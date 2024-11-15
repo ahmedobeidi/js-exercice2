@@ -1,9 +1,11 @@
 /* Exercice 9 
-const number = window.prompt("Enter a number: ");
+    const number = window.prompt("Enter a number: ");
+    let result = "";
+    for (let i = 1; i <= 10; i++) {
+        result += `${number} * ${i} = ${number * i} \n`;
+    }
 
-for (let i = 1; i <= 10; i++) {
-    console.log(`${number} * ${i} = ${number * i}`);
-}
+    console.log(result);
 */
 
 /* Exercice 10 
